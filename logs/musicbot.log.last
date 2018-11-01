@@ -1,0 +1,63 @@
+[92.942476273] 2018-10-31 17:05:52,429 - INFO - launcher: Starting sanity checks
+[93.942165375] 2018-10-31 17:05:52,430 - INFO - launcher: Checking for Python 3.5+
+[94.941854477] 2018-10-31 17:05:52,431 - INFO - launcher: Checking console encoding
+[94.941854477] 2018-10-31 17:05:52,431 - INFO - launcher: Setting console encoding to UTF-8
+[95.941305161] 2018-10-31 17:05:52,432 - INFO - launcher: Ensuring we're in the right environment
+[98.940372467] 2018-10-31 17:05:52,435 - INFO - launcher: Adding local bins/ folder to path
+[1465.101480484] 2018-10-31 17:05:53,801 - INFO - launcher: Required checks passed.
+[1467.098474503] 2018-10-31 17:05:53,803 - INFO - launcher: Optional checks passed.
+[1467.098474503] 2018-10-31 17:05:53,803 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.9851624965667725] 2018-10-31 17:05:55,321 - WARNING - musicbot.config | In config.py::MainThread(1116), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.9861614704132080] 2018-10-31 17:05:55,322 - INFO - musicbot.config | In config.py::MainThread(1116), line 124 in run_checks: Using i18n: config/i18n/en.json
+[2.9971551895141602] 2018-10-31 17:05:55,333 - DEBUG - musicbot.json | In json.py::MainThread(1116), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[3.0491235256195068] 2018-10-31 17:05:55,385 - DEBUG - musicbot.bot | In bot.py::MainThread(1116), line 223 in _setup_logging: Set logging level to INFO
+[3.0501236915588379] 2018-10-31 17:05:55,386 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 83 in __init__: Starting MusicBot 1.9.8_1
+[3.0511224269866943] 2018-10-31 17:05:55,387 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 89 in __init__: Loaded autoplaylist with 2531 entries
+[6.3752226829528809] 2018-10-31 17:05:58,711 - DEBUG - musicbot.bot | In bot.py::MainThread(1116), line 913 in on_ready: Connection established, ready to go.
+[6.3762226104736328] 2018-10-31 17:05:58,712 - DEBUG - musicbot.bot | In bot.py::MainThread(1116), line 334 in _cache_app_info: Caching app info
+[6.5591759681701660] 2018-10-31 17:05:58,895 - DEBUG - musicbot.bot | In bot.py::MainThread(1116), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[6.5621728897094727] 2018-10-31 17:05:58,898 - DEBUG - musicbot.bot | In bot.py::MainThread(1116), line 751 in _scheck_server_permissions: Checking server permissions
+[6.5621728897094727] 2018-10-31 17:05:58,898 - DEBUG - musicbot.bot | In bot.py::MainThread(1116), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[6.5631728172302246] 2018-10-31 17:05:58,899 - DEBUG - musicbot.bot | In bot.py::MainThread(1116), line 759 in _scheck_configs: Validating config
+[6.5631728172302246] 2018-10-31 17:05:58,899 - DEBUG - musicbot.config | In config.py::MainThread(1116), line 213 in async_validate: Validating options...
+[6.5631728172302246] 2018-10-31 17:05:58,899 - DEBUG - musicbot.bot | In bot.py::MainThread(1116), line 762 in _scheck_configs: Validating permissions config
+[6.5631728172302246] 2018-10-31 17:05:58,899 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1116), line 65 in async_validate: Validating permissions...
+[6.5631728172302246] 2018-10-31 17:05:58,899 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 930 in on_ready: Connected: 507183216986423296/Scarlet#1066
+[6.5651693344116211] 2018-10-31 17:05:58,901 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 938 in on_ready: Owner:     326673425416454144/Arnezas#0509
+
+[6.5661711692810059] 2018-10-31 17:05:58,902 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 941 in on_ready: Guild List:
+[6.5671696662902832] 2018-10-31 17:05:58,903 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 944 in on_ready:  - Gamer Group
+[6.5681676864624023] 2018-10-31 17:05:58,904 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 990 in on_ready: Not bound to any text channels
+[6.5681676864624023] 2018-10-31 17:05:58,904 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 1016 in on_ready: Not autojoining any voice channels
+[6.5701653957366943] 2018-10-31 17:05:58,906 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 261 in _join_startup_channels: Found resumable voice channel Gamer Group/Music
+[6.5711655616760254] 2018-10-31 17:05:58,907 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 276 in _join_startup_channels: Attempting to join Gamer Group/Music
+[32.2366726398468018] 2018-10-31 17:06:24,573 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 2598 in on_message: 326673425416454144/Arnezas#0509: *play doctor vox frontier
+[63.9571309089660645] 2018-10-31 17:06:56,293 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 2598 in on_message: 326673425416454144/Arnezas#0509: *play doctor vox  frontier
+[107.8566613197326660] 2018-10-31 17:07:40,193 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 2598 in on_message: 326673425416454144/Arnezas#0509: *summon
+[107.8606696128845215] 2018-10-31 17:07:40,197 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 1864 in cmd_summon: Joining Gamer Group/Music
+[117.5634856224060059] 2018-10-31 17:07:49,900 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 2598 in on_message: 326673425416454144/Arnezas#0509: *play doctor vox  frontier
+[181.2225315570831299] 2018-10-31 17:08:53,559 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 2598 in on_message: 326673425416454144/Arnezas#0509: *disconnect
+[195.9545352458953857] 2018-10-31 17:09:08,291 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 2846 in on_guild_remove: Bot has been removed from guild: Gamer Group
+[195.9555332660675049] 2018-10-31 17:09:08,292 - DEBUG - musicbot.bot | In bot.py::MainThread(1116), line 2847 in on_guild_remove: Updated guild list:
+[201.7940835952758789] 2018-10-31 17:09:14,130 - DEBUG - musicbot.bot | In bot.py::MainThread(1116), line 816 in safe_delete_message: Cannot delete message "", no permission
+[280.8304657936096191] 2018-10-31 17:10:33,167 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 2840 in on_guild_join: Bot has been joined guild: Gamer Group
+[280.8324649333953857] 2018-10-31 17:10:33,169 - DEBUG - musicbot.bot | In bot.py::MainThread(1116), line 2842 in on_guild_join: Creating data folder for guild 479936228368711691
+[312.9083323478698730] 2018-10-31 17:11:05,244 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 2598 in on_message: 326673425416454144/Arnezas#0509: *play doctor vox frontier
+[312.9113309383392334] 2018-10-31 17:11:05,247 - ERROR - musicbot.bot | In bot.py::MainThread(1116), line 2750 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\All\Desktop\MusicBot\musicbot\bot.py", line 2610, in on_message
+    await self._check_ignore_non_voice(message)
+  File "C:\Users\All\Desktop\MusicBot\musicbot\bot.py", line 323, in _check_ignore_non_voice
+    vc = msg.guild.me.voice.channel
+AttributeError: 'NoneType' object has no attribute 'channel'
+[334.6148204803466797] 2018-10-31 17:11:26,951 - INFO - musicbot.bot | In bot.py::MainThread(1116), line 2598 in on_message: 326673425416454144/Arnezas#0509: *play ok
+[334.6178183555603027] 2018-10-31 17:11:26,954 - ERROR - musicbot.bot | In bot.py::MainThread(1116), line 2750 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\All\Desktop\MusicBot\musicbot\bot.py", line 2610, in on_message
+    await self._check_ignore_non_voice(message)
+  File "C:\Users\All\Desktop\MusicBot\musicbot\bot.py", line 323, in _check_ignore_non_voice
+    vc = msg.guild.me.voice.channel
+AttributeError: 'NoneType' object has no attribute 'channel'
